@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head> 
+
+	<style> 
+	
+	body {
+		font-family: Helveticawthu, Arial, sans-serif;
+	}
+	h1 {
+		text-align: center;
+	}
+
+	ul li {
+		margin-bottom: 5px;
+	}
+	ol li {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+	</style> 
+
+	</head>
+<body>
+
+	<h1>WhyTheyHate The Source Code</h1>
+
+
+
+	<h3>// ABOUT //</h3>
+
+	<p>WhyTheyHate The Source Code is a set of files that will pull a random image from flickr identified by a flickr tag of your choosing and load it into a web page.  Originally developed by Steve Calderon with Steve Lambert for the website <a href="http://whytheyhate.us">WhyTheyHate.Us</a>. </p>
+
+	<p>The code was written in 2006, and prepared for release while at Eyebeam's OpenLab in 2007 - <a href="http://research.eyebeam.org">http://research.eyebeam.org</a></p>
+	<img src="logo.gif">
+
+	<p>Steve Lambert - steve at visitsteve.com<br>
+	Steve Calderon - steve at damndirtyape.net</p>
+
+
+
+	<h3>// LICENSE //</h3>
+	<p>The code we wrote (index.html, wthu.php, and style.css) is released into the public domain. 
+	<a href="http://creativecommons.org/licenses/publicdomain/">http://creativecommons.org/licenses/publicdomain/</a>
+	The other files have their own licenses included in the code.</p>
+
+
+
+	<h3>// INSTALLATION //</h3>
+	
+	<ol>
+	<li>Go get a Flickr API key (<a href="http://www.flickr.com/services/api/key.gne">http://www.flickr.com/services/api/key.gne</a>).  Make sure to fill out a full profile or it might not work.</li>
+	<ol>
+	<li> Copy the bundled folders and files to your server:
+	   <ul>
+		<li>auth.php</li>
+		<li>cache</li>
+	    <li>file_get_contents.php</li>
+	    <li>file_put_contents.php</li>
+	    <li>flag.gif</li>
+		<li>getToken.php</li>
+		<li>index.php</li>
+		<li>PEAR</li>
+		<li>phpFlickr.php</li>
+	    <li>style.css</li>
+	    <li>wthu.php</li>
+	    <li>xml.php</li>
+	    <li>xml_saxy_parser.php</li>
+	   </ul>
+	</li>
+
+	<li>Change the permissions for the subdirectory(folder) called "cache" and the file contained within it, called "flickrcache". Your web server needs to be able to read and write to both.</li>
+
+	<li>Edit wthu.php and replace "YOUR FLICKR API KEY GOES HERE" with your Flickr API key.</li>
+
+	<li>Edit index.php and replace "WHATEVERTAGYOUWANT"  with the tag you want to use (we use "whytheyhateus").  </li>
+
+	<li>Put a bunch of public photos on Flickr with the tag you chose (if they're not there already)</li>
+
+	<li>Customize the index.php file with the title of your page, add links to the navigation column, etc.</li>
+
+	<li>Optional: Customize the CSS file.  It's pretty boring if you don't.</li>
+
+	<li>Tell people to add images to flickr with your specified tag.</li>
+
+
+	</ol>
+
+	<h3>// IMPORTANT NOTES //</h3>
+<p>Because the query results are cached, when you change the flickr tag in the code, the images loading into the site will change after around 5 minutes.  It's not broken.</p>
+
+<p>Thanks to the writers of <a href="http://www.sourceforge.net/projects/phpflickr/">http://www.sourceforge.net/projects/phpflickr/</a>.
+	
+</body>
+</html>
