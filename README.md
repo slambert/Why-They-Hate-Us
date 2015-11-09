@@ -1,5 +1,9 @@
 # WhyTheyHate The Source Code
 
+![][3a]
+
+   [3a]: flag.gif
+
 ### // ABOUT //
 
 WhyTheyHate The Source Code is a set of files that will pull a random image from flickr identified by a flickr tag of your choosing and load it into a web page. Originally developed by Steve Calderon with Steve Lambert for the website [WhyTheyHate.Us][1]. 
