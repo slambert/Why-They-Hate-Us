@@ -18,8 +18,10 @@ The code was written in 2006, and prepared for release while at Eyebeam's OpenLa
 
    [3]: logo.gif
 
-Steve Lambert - steve at visitsteve.com  
-Steve Calderon - steve at damndirtyape.net
+Steve Lambert - @slambert steve at visitsteve.com  
+Steve Calderon @vespa59 - steve at damndirtyape.net
+
+Calderon has since passed away. His easy generosity on this project was just one example of what he brought to the world. He was a pleasure to spend time with, and brought laughter with him wherever he went. He is missed by so many.
 
 ### // LICENSE //
 
